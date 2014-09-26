@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite>
+  <runtest name="Test With Group">
+  	<groups>
+  		<run>
+  			<include name="P2"></include>
+  			<exclude name="UAT"></exclude>
+  		</run>
+  	</groups>
+    <classes>
+      <class name="datayes.test.demo.CalendarTest"/>
+    </classes>
+  </runtest> <!-- Test -->
+  <config> 	
+  	<packages>
+  		<package name="datayes.test.demo"></package>
+  	</packages>
+  </config>
+</testsuite> 

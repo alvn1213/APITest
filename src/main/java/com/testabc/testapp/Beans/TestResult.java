@@ -1,6 +1,6 @@
 package com.testabc.testapp.Beans;
 
-public class TestReport {
+public class TestResult {
 	private PreRunInfo preRunInfo;
 	private String starTime;
 	private String endTime;

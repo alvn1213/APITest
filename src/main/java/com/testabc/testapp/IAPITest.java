@@ -1,9 +1,9 @@
 package com.testabc.testapp;
 
-import com.testabc.testapp.Beans.TestReport;
+import com.testabc.testapp.Beans.TestResult;
 
 public interface IAPITest {
 	public void startRun();
 	public void endRun();
-	public TestReport showTestReport();
+	public TestResult showTestReport();
 }
