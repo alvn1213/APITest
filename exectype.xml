@@ -1,19 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite>
-  <runtest name="Test With Group">
+  <test name="Test With Group">
   	<groups>
-  		<run>
-  			<include name="P2"></include>
-  			<exclude name="UAT"></exclude>
-  		</run>
+		<include name="P2"></include>
+  		<exclude name="UAT"></exclude>
   	</groups>
-    <classes>
-      <class name="datayes.test.demo.CalendarTest"/>
-    </classes>
-  </runtest> <!-- Test -->
+  </test> <!-- Test -->
   <config> 	
-  	<packages>
-  		<package name="datayes.test.demo"></package>
+  	<packages name ="com.testabc.testapp">
+  		<include name="*Test*"></include>
+		<exclude name="*Test*"></exclude>
   	</packages>
   </config>
 </testsuite> 
