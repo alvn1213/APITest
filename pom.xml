@@ -102,7 +102,12 @@
         <artifactId>httpclient</artifactId>
         <version>4.3.5</version>
       </dependency>
-     
+    <!--reflections-->
+           <dependency>
+         <groupId>org.reflections</groupId>
+         <artifactId>reflections</artifactId>
+         <version>0.9.9-RC1</version>
+     </dependency>
     <!--json-->
     <dependency>
         <groupId>net.sf.json-lib</groupId>
